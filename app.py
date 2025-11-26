@@ -40,7 +40,7 @@ if input_mode == "Numeric features":
 
     if st.button("Predict"):
         if model is None:
-            st.error("Model file not found. Make sure `model/traffic_model.pkl` exists in the repo.")
+            st.error("Model file not found. Make sure model/traffic_model.pkl exists in the repo.")
         else:
             try:
                 # Adjust features to match your trained model
