@@ -1,0 +1,2 @@
+# Tell Git LFS to track all files with the .pkl extension
+*.pkl filter=lfs diff=lfs merge=lfs -text
