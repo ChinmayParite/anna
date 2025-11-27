@@ -11,7 +11,7 @@ st.title("Traffic Detection — Simple Demo")
 st.write("Upload an image or enter numeric features to get a prediction from the saved model.")
 
 # Path to model file inside repo
-MODEL_PATH = Path("traffic_model.pkl")
+MODEL_PATH = Path("model/traffic_model.pkl")
 
 @st.cache_resource
 def load_model(path: Path = MODEL_PATH):
